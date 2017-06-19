@@ -1,0 +1,26 @@
+.table {
+    margin: 0 auto 20px auto;
+    padding: 0 0 20px;
+    border-bottom: 1px solid;
+    width: 75%;
+}
+
+.table-row {
+    background: #ccc;
+    padding: 20px;
+    margin: 0 0 5px 0;
+}
+
+.table-row--targetted {
+    background: #79A8FF;
+}
+
+[draggable] {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  /* Required to make elements draggable in old WebKit */
+  -khtml-user-drag: element;
+  -webkit-user-drag: element;
+}
